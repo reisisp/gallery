@@ -1,0 +1,10 @@
+.form {
+    display: grid;
+    grid-gap: 7px;
+    margin-top: 7px;
+    &__btn {
+        display: grid;
+        justify-content: end;
+        margin-right: 12px;
+    }
+}

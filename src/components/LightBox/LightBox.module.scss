@@ -1,0 +1,28 @@
+.lightbox {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 68px;
+    left: 320px;
+    height: 750px;
+    width: 800px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #fff;
+    &__content {
+        display: grid;
+        grid-template-columns: 450px 350px;
+        height: 100%;
+    }
+    &__img {
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+        object-fit: fill;
+    }
+}
+
+.active {
+    display: block;
+}

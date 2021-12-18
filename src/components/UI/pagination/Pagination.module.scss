@@ -1,0 +1,22 @@
+.pagination {
+    display: grid;
+    justify-items: center;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(32px, min-content));
+    &__elem {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+        font-size: 18px;
+        color: #939393;
+        &:hover,
+        &:active {
+            color: blue;
+        }
+    }
+}
+
+.active {
+    color: blue;
+}

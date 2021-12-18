@@ -1,0 +1,11 @@
+.input {
+    max-width: 338px;
+    min-width: 338px;
+    padding: 6px;
+    border: 0;
+    border-top: 1px solid #939393;
+    border-bottom: 1px solid #939393;
+    &:focus {
+        outline: 0;
+    }
+}

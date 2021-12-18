@@ -1,0 +1,6 @@
+.comments {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(32px, min-content));
+    height: 560px;
+    overflow: hidden;
+}

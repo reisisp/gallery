@@ -1,0 +1,15 @@
+.btn {
+    background-color: #5181b8;
+    cursor: pointer;
+    padding: 5px 16px 6px 16px;
+    border-radius: 4px;
+    max-width: 98px;
+    &:active,
+    &:hover {
+      opacity: 0.8;
+    }
+    &__text {
+        font-size: 13px;
+        color: #fff;
+    }
+}
